@@ -11,7 +11,7 @@ void main() {
   };
   if (car["isSedan"] == true && car["color"] == "Red") {
     print("Match");
-  } else{
+  } else {
     print("No match");
   }
 }

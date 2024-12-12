@@ -4,13 +4,13 @@
 
 void main() {
   Map<String, dynamic> product = {
-    "name":"Charger",
-    "price":350,
-    "quantity":10,
+    "name": "Charger",
+    "price": 350,
+    "quantity": 10,
   };
-  if(product["quantity"]>0){
+  if (product["quantity"] > 0) {
     print("In stock");
-  } else{
+  } else {
     print("Out of stock");
   }
 }

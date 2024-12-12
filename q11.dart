@@ -5,6 +5,6 @@
 void main() {
   List<int> numbers = [1, 2, 3, 4, 5];
   int n = 3;
-  var newList = numbers.sublist(0,n);
+  var newList = numbers.sublist(0, n);
   print(newList);
 }

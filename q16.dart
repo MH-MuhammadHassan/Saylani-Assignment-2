@@ -4,8 +4,8 @@
 
 void main() {
   List<num> numbers = [10, 200, 1, 3, 55, 99];
-  var oddValues = numbers.where((x) => x %2 != 0).toList();
+  var oddValues = numbers.where((x) => x % 2 != 0).toList();
   print("Odd Values List: ${oddValues}");
-  var evenValues = numbers.where((x) => x%2 == 0).toList();
+  var evenValues = numbers.where((x) => x % 2 == 0).toList();
   print("Even Values List: ${evenValues}");
 }

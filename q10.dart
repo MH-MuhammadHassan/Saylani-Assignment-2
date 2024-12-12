@@ -3,7 +3,6 @@
 // elements, returning a new list without duplicates. The order of elements in the
 // new list should be the same as in the original list.
 
-
 void main() {
   List<String> names = ["Hassan", "Ali", "Hassan"];
   List<String> newList = names.toSet().toList();
