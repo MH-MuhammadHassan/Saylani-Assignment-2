@@ -5,6 +5,7 @@
 
 void main() {
   List<String> names = ["Hassan", "Ali", "Hassan"];
+  print("Before removing duplicates: $names");
   List<String> newList = names.toSet().toList();
   print("After removing duplicates: $newList");
 }
