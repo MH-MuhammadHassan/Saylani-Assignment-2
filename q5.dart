@@ -2,8 +2,8 @@
 // where to find all keys that have length 4.
 
 void main() {
-  Map<String, String> map = {'name': 'Alice', 'phone': '12345'};
-  var newMap = map.keys.where((x) => x.length == 4);
+  Map<String, String> map = {'name': 'Samsung', 'phone': 'S23', 'RAM': "12 GB"};
+  var newMap = map.keys.where((x) => x.length == 4).toList();
 
   print(newMap);
 }
