@@ -5,6 +5,7 @@
 void main() {
   List<int> numbers = [1, 2, 3, 4, 5];
   int n = 3;
-  var newList = numbers.sublist(0, n);
-  print(newList);
+  List<int> newNumber = numbers.take(n).toList();
+ // var newList = numbers.sublist(0, n);
+  print(newNumber);
 }
