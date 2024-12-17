@@ -2,9 +2,6 @@
 // "isActive", write Dart code to check if the user is an active admin. If the user is
 // both an admin and active, print "Active admin", otherwise print "Not an active
 // admin".
-
-import 'dart:isolate';
-
 void main() {
   Map<String, dynamic> user = {
     "name": "Hassan",
