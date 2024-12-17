@@ -6,5 +6,6 @@ void main() {
   List<int> numbers = [1, 5, 2, 4];
   print("Orignal List: ${numbers}");
   var ascendingOrder = List.from(numbers)..sort();
+  // ascendingOrder.sort();
   print("List After Sort: ${ascendingOrder}");
 }
