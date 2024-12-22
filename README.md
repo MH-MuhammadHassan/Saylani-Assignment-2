@@ -46,5 +46,9 @@ Before running the code, ensure the following:
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/MH-MuhammadHassan/Saylani-Assignment-2/dart-22-questions.git
-   cd dart-22-questions
+   git clone https://github.com/MH-MuhammadHassan/Saylani-Assignment-2.git
+
+
+## Contributions
+
+Contributions are welcome! If you have additional examples or improvements, feel free to fork this repository and create a pull request.
